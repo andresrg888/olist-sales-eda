@@ -107,3 +107,6 @@ All figures are available in the `reports/` folder.
 2. Install dependencies listed in `requirements.txt`.
 3. Open the notebook in `notebooks/`.
 4. Run `Run → Run All` to reproduce the analysis.
+
+## 📋 Data Source
+- **Data Source:** [Olist E-Commerce Dataset (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
