@@ -1,7 +1,22 @@
 # Olist E-commerce — Sales Performance EDA
 
 ## Executive Summary
-This project analyzes sales performance in the Olist e-commerce platform to understand how revenue evolves over time and which product categories and demand patterns drive growth. Using transactional order and item-level data, the analysis focuses on delivered orders only and derives actionable insights relevant to business and product stakeholders.
+This project provides a comprehensive exploratory data analysis (EDA) of the Olist e-commerce platform, the largest department store in Brazilian marketplaces. The goal is to understand revenue evolution, identify top-performing product categories, and analyze demand patterns. By focusing on delivered orders, this analysis delivers actionable business insights to help stakeholders optimize growth strategies.
+
+---
+
+## Project Structure
+```text
+.
+├── data/
+│   └── raw/            # Ignored: Original CSV datasets (Olist Kaggle)
+├── notebooks/
+│   └── src/            # Jupyter notebooks with detailed analysis
+├── reports/            # Generated visualizations and plots
+├── .gitignore          # Git exclusion rules
+├── README.md           # Project documentation
+└── requirements.txt    # Python dependencies
+```
 
 ---
 
@@ -51,10 +66,16 @@ Only orders with status `delivered` were considered to ensure revenue reflects c
 ---
 
 ## Visualizations
-The following key visualizations were generated:
-- Monthly GMV trend
-- Monthly Orders trend
-- Top 10 categories by GMV
+The following key visualizations were generated during the analysis:
+
+### 1. Monthly GMV Trend
+![Monthly GMV Trend](reports/monthly_gmv_trend.png)
+
+### 2. Monthly Orders Trend
+![Monthly Orders Trend](reports/monthly_orders_trend.png)
+
+### 3. Top 10 Categories by GMV
+![Top 10 Categories by GMV](reports/top_categories_by_gmv.png)
 
 All figures are available in the `reports/` folder.
 
